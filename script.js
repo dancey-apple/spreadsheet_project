@@ -44,5 +44,9 @@ window.onload = () => {
 }
 
 const update = event => {
+  const element = event.target;
+  const value = element.value.replace(/\s/g, "");
+  if (!value.includes(element.id)) {
 
+  }
 }
